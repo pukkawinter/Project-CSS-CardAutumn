@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin:0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    
+   
+}
+
+.card {
+    width: 300px;
+ 	height: 500px;
+ 	left: 50%;
+	top: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%) rotateX(33deg) rotateZ(27deg);
+    filter: drop-shadow(0px 0px 5px black);
+}
+
+.upperSide {
+    width: 300px;
+	height: 45%;
+    background: rgb(213,90,36);
+    background: linear-gradient(180deg, rgba(213,90,36,1) 0%, rgba(236,198,112,1) 50%); 
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;  
+}
+
+.medium {
+    width: 100%;
+	height: 10%;
+	background-color:#D55A24;
+	position: absolute;
+}
+
+.foto {
+    width: 150px;
+	height: 140px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    filter: drop-shadow(0px 0px 3px black);
+    transition: all 0.5s ease;
+}
+
+.downSide {
+    width: 300px;
+    height:45%;
+    /*background:linear-gradient(0deg,rgba(185,58,169,1) 0%, rgba(34,193,195,1) 76%);*/
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+
+}
+
+h1 {
+    text-align: center;
+	line-height: 250px;
+    color: #A64D18;
+    
+	
+
+}
+
+h2{
+    text-align: center;
+	line-height: 120px;
+	font: 'Ubuntu';
+    color: white;
+}
